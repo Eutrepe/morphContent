@@ -1,0 +1,29 @@
+{
+  "name": "MorphContentPlugin",
+  "version": "1.0.0",
+  "description": "Morph effect for any content with vanila javascript ES6",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eutrepe/morphContent.git"
+  },
+  "keywords": [
+    "Morph"
+  ],
+  "author": "Maciej Bobrowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eutrepe/morphContent/issues"
+  },
+  "homepage": "https://github.com/Eutrepe/morphContent#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
