@@ -4,7 +4,7 @@
   "description": "Morph effect for any content with vanila javascript ES6",
   "main": "index.html",
   "scripts": {
-    "start": "webpack-dev-server --progress --inline --hot"
+    "start": "webpack-dev-server --progress --colors --inline --hot"
   },
   "repository": {
     "type": "git",
