@@ -1,11 +1,11 @@
+const webpack = require('webpack');
+
 module.exports = {
-  entry: './src/main.js',
+  entry: './source/js/main.js',
   output: {
-    path: './dist/',
-    filename: 'app.js',
-    pathInfo: true,
-    publicPath: '/dist/',
+    filename: 'morph-content.min.js',
   },
+
   debug: true,
   devtool: 'source-map',
   module: {
@@ -20,4 +20,10 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true,
+      mangle: false,
+    }),
+  ],
 };

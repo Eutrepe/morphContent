@@ -26,7 +26,7 @@ class MorphContent {
     });
   }
 
-  margeSettings() {
+  mergeSettings() {
     if ((typeof map.get(this).settings).toLowerCase() !== 'object') {
       map.get(this).settings = {};
     }
